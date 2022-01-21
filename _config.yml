@@ -2,7 +2,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "FEGA Maturity Model" # the name of your site, e.g. ACME Corp.
 
-source: source
+# source: source
 
 collections_dir: all_collections
 collections:

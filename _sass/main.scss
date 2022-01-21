@@ -1,0 +1,104 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$fontSize: 14px;
+$headerBackgroundColor: #023452;
+/*$headerBackgroundColor: #f47d21;*/
+$highlightColor: #f47d21;
+$footerBackgroundColor: #3e3e3e;
+
+/* HEADER SECTION */
+header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background: $headerBackgroundColor  no-repeat top center fixed;
+  background-size: 1280px;
+}
+
+.logo {
+  display: block;
+  line-height: 0;
+  border: none;
+  width: 250px;
+  height: auto;
+}
+
+header .logo {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  margin-top: 60px;
+  margin-bottom: 34px;
+  color: #fff
+}
+
+/* BODY SECTION */
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+  font-size: $fontSize;
+}
+
+/* FOOTER SECTION */
+#footer {
+  background: $footerBackgroundColor;
+  padding: 46px 0 50px 0;
+  font-size: 14px;
+}
+
+#footer a {
+  color: $highlightColor;
+  border-bottom: 1px solid $highlightColor;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  border: none;
+}
+
+#footer h5 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+#copyright {
+  background: $headerBackgroundColor;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0 20px 0;
+}
+
+#copyright a {
+  color: #fff;
+  border-bottom: 1px solid #fddada;
+}
+
+#copyright a:hover {
+  text-decoration: none;
+  border: none;
+}
+
+/* ACCORDION */
+.accordion .card-header h5:after {
+    font-family: 'FontAwesome';
+    content: "\f056";
+    float: right;
+}
+.accordion .card-header.collapsed h5:after {
+    /* symbol for "collapsed" panels */
+    content: "\f055";
+    float: right;
+}
