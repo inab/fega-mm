@@ -20,7 +20,7 @@ indicators:
     - level: 1
       desc: 'No sustainability plan exists'
     - level: 2
-      desc: 'Initial engagement with stakeholders'
+      desc: 'Initial engagement with stakeholders to develop sustainability plan'
     - level: 3  
       desc: 'Funding available to support identified and mandated stakeholders'
     - level: 4
