@@ -3,7 +3,7 @@ layout: default
 title: "[4.4] Network Interfaces"
 parent: "4TI"
 indicators:
- - indicator: '[4.4.1] Available Capacity'
+ - indicator: '[4.4.1] Available Network Capacity'
    levels:
     - level: 1
       desc: 'None'
@@ -14,9 +14,9 @@ indicators:
     - level: 4
       desc: 'The Federated EGA Node has a complete and implemented network capacity plan, which can be increased whenever required'
     - level: 5
-      desc: "Periodic revision of the Storage Capacity Planning according to network congestion KPI's of the Federated EGA Node updating it whenever necessary"
+      desc: "Periodic revision of the Network Capacity Planning according to network congestion KPI's of the Federated EGA Node updating it whenever necessary"
 
- - indicator: '[4.4.2] Realibility / Security'
+ - indicator: '[4.4.2] Network Realibility / Security'
    levels:
     - level: 1
       desc: 'None'
