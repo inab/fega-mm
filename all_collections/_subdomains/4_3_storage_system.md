@@ -3,7 +3,7 @@ layout: default
 title: "[4.3] Storage System"
 parent: "4TI"
 indicators:
- - indicator: '[4.3.1] Capacity'
+ - indicator: '[4.3.1] Storage Capacity'
    levels:
     - level: 1
       desc: 'None'
@@ -16,7 +16,7 @@ indicators:
     - level: 5
       desc: "Periodic revision of the Storage Capacity Planning according to utilization KPI's of the Federated EGA Node updating it whenever necessary"
 
- - indicator: '[4.3.2] Robustness'
+ - indicator: '[4.3.2] Storage Robustness'
    levels:
     - level: 1
       desc: 'No systems or guidelines in place to ensure service robustness'
