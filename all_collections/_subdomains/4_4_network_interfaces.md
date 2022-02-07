@@ -16,7 +16,7 @@ indicators:
     - level: 5
       desc: "Periodic revision of the Network Capacity Planning according to network congestion KPI's of the Federated EGA Node updating it whenever necessary"
 
- - indicator: '[4.4.2] Realibility / Security'
+ - indicator: '[4.4.2] Network Realibility / Security'
    levels:
     - level: 1
       desc: 'None'
