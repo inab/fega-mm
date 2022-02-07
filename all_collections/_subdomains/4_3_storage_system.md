@@ -19,7 +19,7 @@ indicators:
  - indicator: '[4.3.2] Robustness'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'No systems or guidelines in place to ensure service robustness'
     - level: 2
       desc: 'Data is generated and stored locally'
     - level: 3  
