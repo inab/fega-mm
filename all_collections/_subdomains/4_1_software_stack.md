@@ -27,7 +27,7 @@ indicators:
     - level: 4
       desc: 'Communicate with CEGA services?'
     - level: 5
-      desc: 'Able to update as needed'
+      desc: 'Able to update as needed, for example in response to changes in community standards (e.g. GA4GH passports) in the framework of the Federated EGA ecosystem.'
 
  - indicator: '[4.1.3] Microservices/APIs specific for FEGA node operations implemented'
    levels:
