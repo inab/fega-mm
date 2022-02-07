@@ -3,7 +3,7 @@ layout: default
 title: "[1.4] Overarching key performance indicators (KPIs)"
 parent: "1GSS"
 indicators:
- - indicator: '[1.4.1] Implementation, adoption and usage of the Federated EGA node'
+ - indicator: '[1.4.1] Implementation, adoption and usage of KPIs in the Federated EGA node'
    levels:
     - level: 1
       desc: 'No KPIs have been identified nor adopted'
