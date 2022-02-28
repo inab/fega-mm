@@ -12,7 +12,7 @@ indicators:
     - level: 3  
       desc: 'Ad-hoc incoming data flow into the Federeated EGA node. This is a largely unautomated process.'
     - level: 4
-      desc: 'Accept data only in formats agreed using standard data reception services. Accepted formats follows the general agremennt reached at the Federated EGA ecosystem'
+      desc: 'Accept data only in formats agreed using standard data reception services. Accepted formats follows the general agreement reached at the Federated EGA ecosystem'
     - level: 5
       desc: 'Periodic review of existing incoming data mechanisms to guarantee up-to-date implementations and the opportunity to incorporate newly accepted data-types and developed data transfer protocols for accepted data-types'
 
