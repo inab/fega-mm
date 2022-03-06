@@ -3,7 +3,7 @@ layout: default
 title: "[1.3] Sustainability model of the Federated EGA node"
 parent: "1GSS"
 indicators:
- - indicator: '[1.3.1] Inmediate resources (short-to-mid term funding)'
+ - indicator: '[1.3.1] Immediate resources (short-to-mid term funding)'
    levels:
     - level: 1
       desc: 'No funding plan is available nor proposed'
