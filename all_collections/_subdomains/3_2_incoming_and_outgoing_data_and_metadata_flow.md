@@ -36,7 +36,7 @@ indicators:
     - level: 2
       desc: 'Information to be exchanged between the federated EGA and Central EGA is drafted.'
     - level: 3  
-      desc: 'Coomunication interfaces and common data standards are well defined. Information, operations-oriented & public metadata, e.g. study metadata, accessions, can be exchanged between the federated EGA node and Central EGA in a manual way.'
+      desc: 'Communication interfaces and common data standards are well defined. Information, operations-oriented & public metadata, e.g. study metadata, accessions, can be exchanged between the federated EGA node and Central EGA in a manual way.'
     - level: 4
       desc: 'Information, operations-oriented & public metadata, e.g. study metadata, accessions, is exchanged between the federated EGA node and Central EGA in an automated or scheduled way.'
     - level: 5
