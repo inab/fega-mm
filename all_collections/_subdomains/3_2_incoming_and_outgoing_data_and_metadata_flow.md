@@ -29,7 +29,7 @@ indicators:
     - level: 5
       desc: 'Periodic review of existing data distribution mechanisms to guarantee up-to-date implementations and the opportunity to incorporate newly accepted data-types, developed data transfer protocols as well as to scale-up the service to cope with increasing use, including the use of standards for partial data retrieval, e.g. htsget for sequencing/variant data.'
 
- - indicator: '[3.2.3] Mechanisms for sharing medatata and other operations-oriented information are established between the federated EGA node and Central EGA'
+ - indicator: '[3.2.3] Mechanisms for sharing metadata and other operations-oriented information are established between the federated EGA node and Central EGA'
    levels:
     - level: 1
       desc: 'None'
