@@ -8,9 +8,9 @@ indicators:
     - level: 1
       desc: 'None'
     - level: 2
-      desc: 'A plan to engage users from the appropiate community starts in the dialoge on the importance of federated data sharing'
+      desc: 'A plan to engage users from the appropiate community starts in the dialogue on the importance of federated data sharing'
     - level: 3  
-      desc: 'The different roles of the Federated EGA Node users are identified in connection with similar efforts int he Ecosystem, and mechanisms to approach them are designed'
+      desc: 'The different roles of the Federated EGA Node users are identified in connection with similar efforts in the Ecosystem, and mechanisms to approach them are designed'
     - level: 4
       desc: 'Well-developed communication materials and channels are provided, emphasizing the commitment of the Federated EGA Node in research data sharing'
     - level: 5
