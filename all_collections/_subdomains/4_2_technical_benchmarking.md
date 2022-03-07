@@ -12,7 +12,7 @@ indicators:
     - level: 3  
       desc: 'Implementation and successful performance of the core compliance tests as defined in the Federated EGA ecosystem.'
     - level: 4
-      desc: 'Implementation of the full battery of complicance tests and successful performance of tests to a production-level standard as defined in the Federated EGA ecosystem'
+      desc: 'Implementation of the full battery of compliance tests and successful performance of tests to a production-level standard as defined in the Federated EGA ecosystem'
     - level: 5
       desc: 'Periodic review of compliance tests to ensure their correct implementation and up-to-date with agreements taken in the Federated EGA ecosystem. Provide feedback and contribute to improving compilance tests, e.g. conforming to new standards, in the framework of the Federated EGA ecosystem as well as develop new stress tests for services unique to the node.'
 
