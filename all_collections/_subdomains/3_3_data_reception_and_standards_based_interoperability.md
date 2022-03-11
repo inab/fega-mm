@@ -21,7 +21,7 @@ indicators:
     - level: 1
       desc: 'None'
     - level: 2
-      desc: 'Initial defition of the data standards and file types that will be supportted by the federated EGA node in accordance to its mandate'
+      desc: 'Initial definition of the data standards and file types that will be supported by the federated EGA node in accordance to its mandate'
     - level: 3  
       desc: 'Initial implementation of the data standards and file types assessment. Manual execution of the associated assessment workflow.'
     - level: 4
