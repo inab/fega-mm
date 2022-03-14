@@ -27,5 +27,5 @@ indicators:
     - level: 4
       desc: 'Node follow the FEGA guidelines for data storage and access to avoid data loss'
     - level: 5
-      desc: 'Annual auditing and revision of the storage system is established to garantee the alignment with the FEGA guidelines for data storage'
+      desc: 'Annual auditing and revision of the storage system is established to guarantee the alignment with the FEGA guidelines for data storage'
 ---
