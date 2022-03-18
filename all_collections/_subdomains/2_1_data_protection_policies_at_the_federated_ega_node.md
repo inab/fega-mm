@@ -25,7 +25,7 @@ indicators:
     - level: 3  
       desc: 'Draft a risk management plan for the Federated EGA Node considering existing policies at the hosting institution as well as incorporating relevant experiences from the Federated EGA ecosystem'
     - level: 4
-      desc: 'Identify and get relevant certifications, e.g. HIPPA, ISO27001, etc, for the risks management in accordance to the hosting institution of the Federated EGA node'
+      desc: 'Obtain approval of the risk management plan in accordance with the hosting institution of the Federated EGA node.'
     - level: 5
-      desc: 'Periodic review of the Analysis updating it whenever nevessary. Contribute towards the shared knowledge base of the Federated EGA ecosystem'
+      desc: 'Periodic review of the risk management plan and update of the Risk and Vulnerability Analysis, as required. Contribute towards the shared knowledge base of the Federated EGA ecosystem.'
 ---
