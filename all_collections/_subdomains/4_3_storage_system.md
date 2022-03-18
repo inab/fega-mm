@@ -25,7 +25,7 @@ indicators:
     - level: 3  
       desc: 'Node has a system to prevent data loss'
     - level: 4
-      desc: 'Node follow the FEGA guidelines for data storage and access to avoid data loss'
+      desc: 'Node follow the FEGA guidelines for data storage, redundancy and access to avoid data loss'
     - level: 5
       desc: 'Annual auditing and revision of the storage system is established to guarantee the alignment with the FEGA guidelines for data storage'
 ---
