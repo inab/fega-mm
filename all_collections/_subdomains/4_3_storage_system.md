@@ -6,7 +6,7 @@ indicators:
  - indicator: '[4.3.1] Storage Capacity'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'No storage capacity'
     - level: 2
       desc: 'Storage capacity needs are not planned but it is addressed ad hoc if the node has no more storage to provide'
     - level: 3  
