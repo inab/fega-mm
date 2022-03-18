@@ -6,7 +6,7 @@ indicators:
  - indicator: '[4.4.1] Available Network Capacity'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'No network capacity'
     - level: 2
       desc: 'Federated EGA Node network needs are covered by the hosting institution in an ad hoc basis'
     - level: 3  
