@@ -23,7 +23,7 @@ indicators:
     - level: 2
       desc: 'Data is generated and stored locally'
     - level: 3  
-      desc: 'Node has a customed system to prevent data loss'
+      desc: 'Node has a system to prevent data loss'
     - level: 4
       desc: 'Node follow the FEGA guidelines for data storage and access to avoid data loss'
     - level: 5
