@@ -22,7 +22,7 @@ indicators:
     - level: 2
       desc: 'Initial engagement with stakeholders to develop sustainability plan'
     - level: 3  
-      desc: 'Funding available to support identified and mandated stakeholders'
+      desc: 'Available funding identified and stakeholders have been mandated.'
     - level: 4
       desc: 'Sustainability plan to support the FEGA is designed and being established. Other models for diversifying founding streams raising financial stakeholders are explored.'
     - level: 5
