@@ -1,90 +1,16 @@
 <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-fega-mm-tab" data-toggle="tab" href="#nav-fega-mm" role="tab" aria-controls="nav-fega-mm" aria-selected="true">FEGA MM</a>
-    <a class="nav-item nav-link" id="nav-glossary-tab" data-toggle="tab" href="#nav-glossary" role="tab" aria-controls="nav-glossary" aria-selected="false">Glossary</a>
+    <a class="nav-item nav-link" id="nav-level-definitions-tab" data-toggle="tab" href="#nav-level-definitions" role="tab" aria-controls="nav-level-definitions" aria-selected="false">Level definitions</a>
   </div>
 </nav>
 
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-fega-mm" role="tabpanel" aria-labelledby="nav-fega-mm-tab">
-
-    <div class="accordion my-3" id="domainsAccordion">
-      {% for domain in site.domains %}
-      <div class="card">
-        <div class="card-header collapsed" id="{{ domain.identifier }}" data-toggle="collapse" data-target="#collapse{{domain.identifier}}" aria-expanded="false" aria-controls="collapse{{domain.identifier}}">
-          <h5 class="mb-0">
-            {{ domain.title }}
-          </h5>
-        </div>
-
-        <div id="collapse{{domain.identifier}}" class="collapse" aria-labelledby="{{domain.identifier}}">
-          <div class="card-body">
-            {% assign subdomains = site.subdomains | where:"parent", domain.identifier %}
-
-            <div class="row">
-              <div class="col-md-2">
-                <h5>Subdomain</h5>
-              </div>
-              <div class="col-md-10">
-                <div class="row">
-                  <div class="col-md-4">
-                    <h5>Indicators</h5>
-                  </div>
-                  <div class="col-md-2">
-                    <h5>Connected with</h5>
-                  </div>
-                  <div class="col-md-6">
-                    <h5>Maturity levels</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {% for subdomain in subdomains %}
-            <div class="row border-top">
-              <div class="col-md-2">
-                <h6>{{subdomain.title}}</h6>
-              </div>
-              <div class="col-md-10">
-                {% for indicator in subdomain.indicators %}
-                  <div class="row border-top">
-
-                    <div class="col-md-4">
-                      {{indicator.indicator}}
-                    </div>
-                    <div class="col-md-2">
-                      {% for con in indicator.connected %}
-                      <div class="row border-top">
-                        <div class="col-md-12">
-                            <div class="d-table-cell"><strong>{{con.ind}}</strong></div>
-                        </div>
-                      </div>
-                      {% endfor %}
-                    </div>
-                    <div class="col-md-6">
-                        {% for level in indicator.levels %}
-                          <div class="row border-top">
-                            <div class="col-md-12">
-                                <div class="d-table-cell"><strong>{{level.level}}. </strong></div><div class="d-table-cell pl-1">{{level.desc}}</div>
-                            </div>
-                          </div>
-                        {% endfor %}
-                    </div>
-
-                  </div>
-                  {% endfor %}
-              </div>
-            </div>
-            {% endfor %}
-
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% include domains_accordion.html %}
   </div>
 
-  <div class="tab-pane fade" id="nav-glossary" role="tabpanel" aria-labelledby="nav-glossary-tab">
-    GLOSSARY
+  <div class="tab-pane fade" id="nav-level-definitions" role="tabpanel" aria-labelledby="nav-level-definitions-tab">
+    {% include level_definitions.html %}
   </div>
 </div>

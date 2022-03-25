@@ -1,0 +1,23 @@
+{% assign lastStatus = "" %}
+{% for level in site.level-definitions %}
+{% if level.status == lastStatus %}
+{% assign space = "margin-top:0px;" %}
+{% else %}
+{% assign space = "margin-top:5px;" %}
+{% endif %}
+<div class="row" style="font-size:125%; background-color:{{level.highlight}}; {{space}}">
+  <div class="col-md-1">
+    <strong>{{level.title}}</strong>
+  </div>
+  <div class="col-md-8">
+    {{level.desc}}
+  </div>
+  {% if level.status == lastStatus %}
+  {% else %}
+    <div class="col-md-3">
+      {{level.status}}
+    </div>
+  {% endif %}
+  {% assign lastStatus = level.status %}
+</div>
+{% endfor %}
