@@ -17,6 +17,8 @@ indicators:
       desc: 'Tracked and enforced adoption of common software development best practices'
 
  - indicator: '[4.1.2] Interoperability with CEGA microservices implemented (e.g. permissions API, submission API)'
+   connected:
+    - ind: '3.2.3'
    levels:
     - level: 1
       desc: 'None'
@@ -30,6 +32,8 @@ indicators:
       desc: 'Able to update as needed, for example in response to changes in community standards (e.g. GA4GH passports) in the framework of the Federated EGA ecosystem.'
 
  - indicator: '[4.1.3] Microservices/APIs specific for FEGA node operations implemented'
+   connected:
+    - ind: '3.2.2'
    levels:
     - level: 1
       desc: 'None'

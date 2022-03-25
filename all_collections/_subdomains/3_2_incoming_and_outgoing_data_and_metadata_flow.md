@@ -4,6 +4,10 @@ title: "[3.2] Incoming and outgoing data & metadata flow"
 parent: "3DMM"
 indicators:
  - indicator: '[3.2.1] Incoming Data flow in the federated EGA node is established'
+   connected:
+    - ind: '1.2.1'
+    - ind: '3.3.1'
+    - ind: '3.3.2'
    levels:
     - level: 1
       desc: 'None'

@@ -4,6 +4,8 @@ title: "[3.3] Data Reception and Standards-based Interoperability"
 parent: "3DMM"
 indicators:
  - indicator: '[3.3.1] Assessment of the Data Content Quality'
+   connected:
+    - ind: '3.2.1'
    levels:
     - level: 1
       desc: 'None'
@@ -17,6 +19,9 @@ indicators:
       desc: 'Periodic review of the Data Content Quality assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the federated EGA ecosystem work in this topic.'
 
  - indicator: '[3.3.2] Community-agreed data standards and file types are implemented'
+   connected:
+    - ind: '1.2.1'
+    - ind: '3.2.1'
    levels:
     - level: 1
       desc: 'None'
@@ -30,6 +35,9 @@ indicators:
       desc: 'Periodic review of the Data standards and file types assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the federated EGA ecosystem work in this topic.'
 
  - indicator: '[3.3.3] Metadata standards & harmonisation implemented'
+   connected:
+    - ind: '1.2.1'
+    - ind: '3.2.1'
    levels:
     - level: 1
       desc: 'None'

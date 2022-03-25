@@ -4,6 +4,9 @@ title: "[6.1] Appropriate stakeholder Research Community Engagement"
 parent: "6CCBE"
 indicators:
  - indicator: '[6.1.1] Awareness raising'
+   connected:
+    - ind: '1.2'
+    - ind: '1.3'
    levels:
     - level: 1
       desc: 'None'

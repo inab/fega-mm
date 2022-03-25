@@ -30,7 +30,10 @@
                   <div class="col-md-4">
                     <h5>Indicators</h5>
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-md-2">
+                    <h5>Connected with</h5>
+                  </div>
+                  <div class="col-md-6">
                     <h5>Maturity levels</h5>
                   </div>
                 </div>
@@ -49,7 +52,16 @@
                     <div class="col-md-4">
                       {{indicator.indicator}}
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-2">
+                      {% for con in indicator.connected %}
+                      <div class="row border-top">
+                        <div class="col-md-12">
+                            <div class="d-table-cell"><strong>{{con.ind}}</strong></div>
+                        </div>
+                      </div>
+                      {% endfor %}
+                    </div>
+                    <div class="col-md-6">
                         {% for level in indicator.levels %}
                           <div class="row border-top">
                             <div class="col-md-12">

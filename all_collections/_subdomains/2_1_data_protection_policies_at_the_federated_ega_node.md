@@ -4,6 +4,9 @@ title: "[2.1] Data Protection policies at the Federated EGA Node are established
 parent: "2L"
 indicators:
  - indicator: '[2.1.1] Data Protection Impact Analysis (DPIA) performed'
+   connected:
+    - ind: '4.2.1'
+    - ind: '4.4.2'
    levels:
     - level: 1
       desc: 'None'

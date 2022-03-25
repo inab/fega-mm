@@ -4,6 +4,8 @@ title: "[4.4] Network Interfaces"
 parent: "4TI"
 indicators:
  - indicator: '[4.4.1] Available Network Capacity'
+   connected:
+    - ind: '1.4.1'
    levels:
     - level: 1
       desc: 'No network capacity'
@@ -17,6 +19,9 @@ indicators:
       desc: "Periodic revision of the Network Capacity Planning according to network congestion KPI's of the Federated EGA Node updating it whenever necessary"
 
  - indicator: '[4.4.2] Network Realibility / Security'
+   connected:
+    - ind: '2.1.2'
+    - ind: '3.1'
    levels:
     - level: 1
       desc: 'None'

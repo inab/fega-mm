@@ -4,6 +4,9 @@ title: "[4.3] Storage System"
 parent: "4TI"
 indicators:
  - indicator: '[4.3.1] Storage Capacity'
+   connected:
+    - ind: '1.3.1'
+    - ind: '1.3.2'
    levels:
     - level: 1
       desc: 'No storage capacity'

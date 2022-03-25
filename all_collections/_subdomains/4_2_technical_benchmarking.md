@@ -4,6 +4,9 @@ title: "[4.2] Technical Benchmarking"
 parent: "4TI"
 indicators:
  - indicator: '[4.2.1] Compliance testing'
+   connected:
+    - ind: '4.2.2'
+    - ind: '4.4.2'
    levels:
     - level: 1
       desc: 'None'
@@ -17,6 +20,8 @@ indicators:
       desc: 'Periodic review of compliance tests to ensure their correct implementation and up-to-date with agreements taken in the Federated EGA ecosystem. Provide feedback and contribute to improving compilance tests, e.g. conforming to new standards, in the framework of the Federated EGA ecosystem as well as develop new stress tests for services unique to the node.'
 
  - indicator: '[4.2.2] Stress Testing'
+   connected:
+    - ind: '4.2.1'
    levels:
     - level: 1
       desc: 'None'

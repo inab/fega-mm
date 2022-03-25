@@ -4,6 +4,9 @@ title: "[5.2] Establishment of Federated EGA Node team"
 parent: "5OS"
 indicators:
  - indicator: '[5.2.1] Training and Capacity Building'
+   connected:
+    - ind: '1.1.1'
+    - ind: '1.2.1'
    levels:
     - level: 1
       desc: 'No training established'

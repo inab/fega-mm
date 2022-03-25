@@ -4,6 +4,8 @@ title: "[2.3] Legal agreement between the Federated EGA Node and its users"
 parent: "2L"
 indicators:
  - indicator: '[2.3.1] Data Processing Agreement (DPA) is available to users'
+   connected:
+    - ind: '1.4.1'
    levels:
     - level: 1
       desc: 'None'

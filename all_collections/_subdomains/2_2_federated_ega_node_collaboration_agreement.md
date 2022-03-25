@@ -4,6 +4,9 @@ title: "[2.2] Federated EGA Node Collaboration agreement"
 parent: "2L"
 indicators:
  - indicator: '[2.2.1] Federated EGA Node Collaboration agreement established'
+   connected:
+    - ind: '1.1.1'
+    - ind: '1.2.1'
    levels:
     - level: 1
       desc: 'Informal interest expressed'

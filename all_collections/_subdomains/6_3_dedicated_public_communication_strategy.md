@@ -4,6 +4,9 @@ title: "[6.3] Dedicated Public Communication Strategy"
 parent: "6CCBE"
 indicators:
  - indicator: '[6.3.1] Developed communication package'
+   connected:
+    - ind: '1.3'
+    - ind: '1.4'
    levels:
     - level: 1
       desc: 'None'
