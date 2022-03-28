@@ -13,9 +13,9 @@ indicators:
     - level: 2
       desc: 'Storage capacity needs are not planned but it is addressed ad hoc if the node has no more storage to provide'
     - level: 3  
-      desc: 'A plan to increase storage capacity in case of being necessary is drafted considering the policies by the hosting institution'
+      desc: 'A plan to maintain or increase storage capacity in case of being necessary is drafted considering the policies by the hosting institution'
     - level: 4
-      desc: 'The Federated EGA Node has a complete and implemented plan to increase its capacity when required'
+      desc: 'The Federated EGA Node has a complete and implemented plan to maintain or increase its capacity when required'
     - level: 5
       desc: "Periodic revision of the Storage Capacity Planning according to utilization KPI's of the Federated EGA Node updating it whenever necessary"
 
