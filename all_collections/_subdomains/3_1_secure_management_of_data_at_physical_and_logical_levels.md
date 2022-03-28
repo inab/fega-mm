@@ -30,6 +30,8 @@ indicators:
       desc: 'Application for access is semi-automated and follows international standards. Process is periodically reviewed to ensure time efficient access.'
 
  - indicator: '[3.1.3] Risk register/assessment implemented'
+   connected:
+    - ind: '1.1.1'
    levels:
     - level: 1
       desc: 'No risk register'
