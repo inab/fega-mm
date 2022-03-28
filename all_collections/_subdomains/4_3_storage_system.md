@@ -22,9 +22,9 @@ indicators:
  - indicator: '[4.3.2] Storage Robustness'
    levels:
     - level: 1
-      desc: 'No systems or guidelines in place to ensure service robustness'
+      desc: 'Data is generated and stored locally only'
     - level: 2
-      desc: 'Data is generated and stored locally'
+      desc: 'Data is stored in duplicate (locally and remotely), but there are no systems or guidelines in place to ensure service robustness'
     - level: 3  
       desc: 'Node has a system to prevent data loss'
     - level: 4
