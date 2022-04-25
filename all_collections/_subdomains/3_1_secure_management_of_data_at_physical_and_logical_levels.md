@@ -53,7 +53,7 @@ indicators:
     - level: 3  
       desc: 'First complete draft SOP documented for raising a security alarm. Have contacts for steps of SOP and proposal for audit report. SOP is accessible to all team members.'
     - level: 4
-      desc: 'Production SOP in use, approved by relevant legal and/or security personnel. Have trained all personnel in the process. Done dry runs through SOP to identify areas of improvement.'
+      desc: 'Production SOP in use, approved by relevant legal and/or security personnel.'
     - level: 5
-      desc: 'Plan reviewed annually or immediately after it was used to identify areas of improvement.'
+      desc: 'Plan reviewed annually or immediately after it was used to identify areas of improvement. Have trained all personnel in the process. Done dry runs through SOP to identify areas of improvement.'
 ---
