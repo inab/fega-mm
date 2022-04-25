@@ -19,7 +19,7 @@ indicators:
     - level: 5
       desc: 'Periodic review of the Data Protection Impact Analysis (DPIA) updating it whenever relevant. Contribute towards the knowlege base of the Federated EGA ecosystem'
 
- - indicator: '[2.1.2] Risk and Vulnerability Analysis perfomed'
+ - indicator: '[2.1.2] Risk and Vulnerability Analysis performed'
    levels:
     - level: 1
       desc: 'None'
