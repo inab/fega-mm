@@ -27,11 +27,11 @@ indicators:
     - level: 2
       desc: 'First methods are drafted and proposed for the data distribution out of the Federated EGA node.'
     - level: 3  
-      desc: 'Ad-hoc distribution of data out of the Federated EGA node to approved users using labour intensive protocols e.g., staging and distribution via Globus.'
+      desc: 'Ad-hoc distribution of data out of the Federated EGA node to approved users using labour intensive protocols.'
     - level: 4
-      desc: 'Data can flow out of node in a semi-automated or self-service way for approved users using secure protocols, e.g. encrypted data, secure transfer protocol. Majority of data distribution scenarios agreed by the Federated EGA ecosystem are supported by the node'
+      desc: 'Data can flow out of node in a semi-automated or self-service way for approved users using secure protocols. Majority of data distribution scenarios agreed by the Federated EGA ecosystem are supported by the node.'
     - level: 5
-      desc: 'Periodic review of existing data distribution mechanisms to guarantee up-to-date implementations and the opportunity to incorporate newly accepted data-types, developed data transfer protocols as well as to scale-up the service to cope with increasing use, including the use of standards for partial data retrieval, e.g. htsget for sequencing/variant data.'
+      desc: 'Periodic review of existing data distribution mechanisms to guarantee up-to-date implementations and the opportunity to incorporate newly accepted data-types, developed data transfer protocols as well as to scale-up the service to cope with increasing use, including the use of standards for partial data retrieval.'
 
  - indicator: '[3.2.3] Mechanisms for sharing metadata and other operations-oriented information are established between the federated EGA node and Central EGA'
    levels:
