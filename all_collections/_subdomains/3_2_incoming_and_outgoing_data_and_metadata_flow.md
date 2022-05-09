@@ -10,11 +10,11 @@ indicators:
     - ind: '3.3.2'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
       desc: 'First mechanisms for receiving and processing data submissions are designed.'
     - level: 3  
-      desc: 'Ad-hoc incoming data flow into the Federeated EGA node. This is a largely unautomated process.'
+      desc: 'Ad-hoc incoming data flow into the Federated EGA node. This is a largely automated process.'
     - level: 4
       desc: 'Accept data only in formats agreed using standard data reception services in a more automated manner. Accepted formats follow the general agreement reached at the Federated EGA ecosystem.'
     - level: 5
@@ -23,7 +23,7 @@ indicators:
  - indicator: '[3.2.2] Outgoing Data flow in the federated EGA node is established'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
       desc: 'First methods are drafted and proposed for the data distribution out of the Federated EGA node.'
     - level: 3  
@@ -36,7 +36,7 @@ indicators:
  - indicator: '[3.2.3] Mechanisms for sharing metadata and other operations-oriented information are established between the federated EGA node and Central EGA'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
       desc: 'Information to be exchanged between the federated EGA and Central EGA is drafted.'
     - level: 3  
