@@ -27,7 +27,7 @@ indicators:
     - level: 3  
       desc: 'Implementation and successful performance of minimally required communication with CEGA microservices.'
     - level: 4
-      desc: 'Production-level implementation of communication with CEGA microservices and full integration into FEGA node services.'
+      desc: 'Production-level implementation of communication with CEGA microservices and full integration into FEGA node services according to FEGA committees.'
     - level: 5
       desc: 'Able to update as needed, for example in response to changes in community standards (e.g. GA4GH passports) in the framework of the Federated EGA ecosystem.'
 
