@@ -6,26 +6,26 @@ indicators:
  - indicator: '[3.1.1] Secure installation for the Federated EGA node'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
-      desc: 'Organisation-wide security policies and infrastructure are defined'
+      desc: 'Organisation-wide security policies and infrastructure are defined.'
     - level: 3  
-      desc: 'Security policies and infrastructure are implemented and enforced following organisation-wide guidelines'
+      desc: 'Security policies and infrastructure are implemented and enforced following organisation-wide guidelines.'
     - level: 4
-      desc: 'Security policies and infrastructure are established and implemented under the appropriate jurisdictional level, e.g. nationally'
+      desc: 'Security policies and infrastructure are established and implemented under the appropriate jurisdictional level, e.g. nationally.'
     - level: 5
-      desc: 'Security policies follow international best practices for data security and are regularly reviewed based on changes in technological, regulatory and ethical considerations'
+      desc: 'Security policies follow international best practices for data security and are regularly reviewed based on changes in technological, regulatory and ethical considerations.'
 
  - indicator: '[3.1.2] Data Access mechanisms are available in the Federated EGA node following Data Access Committee approval'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
-      desc: 'Fully manual system. The process is triggered manually after approval is granted'
+      desc: 'Fully manual system. The process is triggered manually after approval is granted.'
     - level: 3  
-      desc: 'Partial automation of the data flow approval process'
+      desc: 'Partial automation of the data flow approval process.'
     - level: 4
-      desc: 'Datasets are tagged with appropriate usage conditions using, for instance, GA4GH DUO. This would partially guide DAC approvals, accelerating the data access process'
+      desc: 'Datasets are tagged with appropriate usage conditions using, for instance, GA4GH DUO. This would partially guide DAC approvals, accelerating the data access process.'
     - level: 5
       desc: 'Application for access is semi-automated and follows international standards. Process is periodically reviewed to ensure time efficient access.'
 
@@ -34,20 +34,20 @@ indicators:
     - ind: '1.1.1'
    levels:
     - level: 1
-      desc: 'No risk register'
+      desc: 'No risk register.'
     - level: 2
       desc: 'Risk register planning in preparation, relevant people identified as responsible for RR at node.'
     - level: 3  
-      desc: 'Risks identified, documented and assigned to appropriate personnel for review'
+      desc: 'Risks identified, documented and assigned to appropriate personnel for review.'
     - level: 4
-      desc: 'Risks register formally defined (Risks identified, analysised, prioritised & treated/mitigated)'
+      desc: 'Risks register formally defined (Risks identified, analysed, prioritised & treated/mitigated).'
     - level: 5
-      desc: 'Risk register reviewed and updated quarterly'
+      desc: 'Risk register reviewed and updated quarterly.'
 
  - indicator: '[3.1.4] Security breach/incident response plan defined'
    levels:
     - level: 1
-      desc: 'No plan'
+      desc: 'No plan.'
     - level: 2
       desc: 'Identify potential security breach points from Risk register. Give consideration to other FEGA nodes, CEGA, key contacts, and institutional/organisational policies.'
     - level: 3  
