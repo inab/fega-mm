@@ -8,13 +8,13 @@ indicators:
     - ind: '3.2.1'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
-      desc: 'Initial definition of the data content quality aspects to monitor based on existing agreements in the Federated EGA ecosystem'
+      desc: 'Initial definition of the data content quality aspects to monitor based on existing agreements in the Federated EGA ecosystem.'
     - level: 3  
-      desc: 'Initial implementation of the data content quality workflow. Manual execution of the associated assessment workflow'
+      desc: 'Initial implementation of the data content quality workflow. Manual execution of the associated assessment workflow.'
     - level: 4
-      desc: 'Data Content Quality assessment workflow is fully implemented. Automated generation of reports on the data content quality available at the federated EGA node'
+      desc: 'Data Content Quality assessment workflow is fully implemented. Automated generation of reports on the data content quality available at the federated EGA node.'
     - level: 5
       desc: 'Periodic review of the Data Content Quality assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the federated EGA ecosystem work in this topic.'
 
@@ -24,13 +24,13 @@ indicators:
     - ind: '3.2.1'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
-      desc: 'Initial definition of the data standards and file types that will be supported by the federated EGA node in accordance to its mandate'
+      desc: 'Initial definition of the data standards and file types that will be supported by the federated EGA node in accordance to its mandate.'
     - level: 3  
       desc: 'Initial implementation of the data standards and file types assessment. Manual execution of the associated assessment workflow.'
     - level: 4
-      desc: 'Data standards and file types assessment workflow is fully implemented. Assessment is part of the incoming data process in the federated EGA node. Automated report generation'
+      desc: 'Data standards and file types assessment workflow is fully implemented. Assessment is part of the incoming data process in the federated EGA node. Automated report generation.'
     - level: 5
       desc: 'Periodic review of the Data standards and file types assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the federated EGA ecosystem work in this topic.'
 
@@ -40,11 +40,11 @@ indicators:
     - ind: '3.2.1'
    levels:
     - level: 1
-      desc: 'None'
+      desc: 'None.'
     - level: 2
-      desc: 'Initial definition of the metadata standards that will be supported by the deferated EGA in accordance to its mandate and in alignment with the federated EGA ecosystem'
+      desc: 'Initial definition of the metadata standards that will be supported by the deferated EGA in accordance to its mandate and in alignment with the federated EGA ecosystem.'
     - level: 3  
-      desc: 'Metadata is ingested with limited formating and minimum standards. Basic tools used for metadata collection (e.g. spreadsheets) and validation are deployed. Metadata management is partially automated'
+      desc: 'Metadata is ingested with limited formatting and minimum standards. Basic tools used for metadata collection (e.g. spreadsheets) and validation are deployed. Metadata management is partially automated.'
     - level: 4
       desc: 'Metadata management is automated and becomes more holistic including the harmonized metadata standards, e.g. relevant ontologies. Tooling and support is available for submitters and data requesters,  including curation services, if needed.'
     - level: 5
