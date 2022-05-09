@@ -5,6 +5,7 @@ parent: "4TI"
 indicators:
  - indicator: '[4.2.1] Compliance testing'
    connected:
+    - ind: '4.1.2'
     - ind: '4.2.2'
     - ind: '4.4.2'
    levels:
