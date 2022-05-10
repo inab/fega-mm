@@ -11,7 +11,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Initial (and informal) communications for the Federated EGA Node are performed.'
+      desc: 'Initial (and informal) communications for the Federated EGA Node are happening.'
     - level: 3  
       desc: 'Leverage the existing generic communication package by the Federated EGA ecosystem to establish the digital entity of the Federated EGA node.'
     - level: 4
