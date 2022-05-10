@@ -10,7 +10,7 @@ indicators:
     - level: 2
       desc: 'Local users needs in terms of training are identified.'
     - level: 3  
-      desc: 'Mapping of users needs to available training materials at the Federated EGA Ecosystem is completed.'
+      desc: 'Training materials are available at the Federated EGA Ecosystem and mapped to the users.'
     - level: 4
       desc: 'Adapted training materials by the Federated EGA Node is delivered to local users.'
     - level: 5
