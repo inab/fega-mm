@@ -20,12 +20,12 @@ if __name__ == "__main__":
   parser.add_argument("-c", "--columns", dest = "inColumns", required = True, \
     type = int, nargs = "+", help = "Indicate which column/s contain the "
     + "self-assessment values. Starts in 0")
-
-  parser.add_argument("-f", "--filter", dest = "filter", default = [], type = \
-    str, nargs = "+", help = "Filter specific domain, sub-dommain or indicator")
     
   parser.add_argument("-o", "--out", dest = "outFile", default = None, type = \
     str, help = "Set output filename")
+
+  parser.add_argument("-f", "--filter", dest = "filter", default = [], type = \
+    str, nargs = "+", help = "Filter specific domain, sub-dommain or indicator")
 
   parser.add_argument("--no-header", dest = "header", action = 'store_false', \
     help = "Indicate there are no headers in the input file")
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     if args.header:
       args.header = False
       continue
-    
+
     ## Discard empty lines
     if not input_line.strip():
       continue
@@ -63,10 +63,9 @@ if __name__ == "__main__":
     if line[1]:
       subdomain, subdomain_title = line[1].split("]")[0][1:], line[1]
       titles.setdefault(subdomain, subdomain_title)
-
+    
     ## Capture and model the relevant information for the plot
     indicator = line[2].split("]")[0][1:]
-    
     ## Skip specific indicators for a given domain/sub-domain if filtered:
     if args.filter:
       domain = indicator.split(".")[0]
@@ -79,70 +78,60 @@ if __name__ == "__main__":
     expected = int(line[args.refColumn])
     values.setdefault(indicator, {}).setdefault("reference", expected)
 
-    ## Self-Assessment values
-    selfAssessment = [int(line[pos]) for pos in args.inColumns]
-    values[indicator].setdefault("assessment", selfAssessment)
-
-  if not values:
-    sys.exit()
+    ## Self-Assessment values - evaluated against the expected value
+    for pos in args.inColumns:
+      selfAssessment = int(line[pos])
+      if selfAssessment < expected:
+        values[indicator]["lower"] = values[indicator].get("lower", 0) + 1
+      elif selfAssessment == expected:
+        values[indicator]["equal"] = values[indicator].get("equal", 0) + 1
+      else:
+        values[indicator]["higher"] = values[indicator].get("higher", 0) + 1
   
+  ## Define some attributes for each category
+  attributes = {
+    "lower":  {"color": "#95DBE5FF", "legend": "Lower than expected"},
+    "equal":  {"color": "#078282FF", "legend": "As expected"},
+    "higher": {"color": "#339E66FF", "legend": "Higher than expected"},
+  }
+    
   ## Produce the plot
   fig, ax = plt.subplots( nrows = 1, ncols = 1, figsize = (18, 10))
-  keys = sorted(values.keys())
-
-  window = (1/float(len(args.inColumns))) * .8
-   
-  y_max = 0
-  y_values = set()
-  for pos in range(len(args.inColumns)):
-
-    factor = pos/float(len(args.inColumns))
-    y = [values[categ]["assessment"][pos] for categ in keys]
-    x = [x + factor for x in range(len(y))]
-    
-    ax.bar(x, y, width = window, align = "edge", zorder = 5)
-    y_max = max([y_max, max(y)])
-    y_values |= set(y)
-
-  ax.yaxis.grid(True, linestyle = "-.")
-  ax.set_xlim([-.2, len(y) + .2])
-  ax.set_ylim(ymax = y_max + .2)
+ 
+  cumulative = []
+  total = float(len(args.inColumns))
+  keys = sorted(values.keys(), reverse = True)
   
-  interv = x[0] + window  
-  for pos in range(len(keys)):
-    y = [values[keys[pos]]["reference"], values[keys[pos]]["reference"]]
-    x = [pos, pos + interv]
-    ax.plot(x, y, color = "black", linewidth = 2, zorder = 10, label = \
-      "expected level" if pos == 0 else None)
-
-  categories = {}
-  for categ in keys:
-    label = categ.replace("[", "").replace("]", "").split(".")
-    categories.setdefault(label[0], {}).setdefault(label[1], []).append(categ)
-
-  white = True
-  x_values = []
-  cumulative = 0 
-  for major in sorted(categories):
-    size = sum([len(categories[major][minor]) for minor in categories[major]])
-    x_values.append(cumulative + (size/2))
+  for categ in ["lower", "equal", "higher"]:
+   
+    x = [0 if not categ in values[indicator] else values[indicator][categ]/total \
+      for indicator in keys]
     
-    if not white:
-      ax.bar([cumulative], [y_max + .2], width = size, alpha = 0.5, zorder = 1,
-        align = "edge", color = "lightgrey")
-      white = True
-    else:
-      white = False
-    cumulative += size
+    if not cumulative:
+      cumulative = [0 for pos in range(len(x))]
+  
+    ax.barh(range(len(x)), x, align = 'center', left = cumulative, \
+      color = attributes[categ]["color"], label = attributes[categ]["legend"])
+        
+    cumulative = [x[pos] + cumulative[pos] for pos in range(len(x))]
+    
+  ax.legend(fontsize = "x-large", ncol = 3, bbox_to_anchor=(0.75, 1.08), \
+    loc = 1, fancybox=True, shadow=True)
 
-  ax.set_xticks(x_values)
-  ax.set_xticklabels([textwrap.shorten(titles[major], width = 24, \
-    placeholder = " ...") for major in sorted(categories)])
-  ax.set_yticks(sorted(y_values))
 
-  ax.legend(loc = 1, fontsize = "xx-large", fancybox = True, shadow = True)
-  ax.set_xlabel('Domains', fontsize = "xx-large", weight = "bold")
-  ax.set_ylabel('Maturiy Levels', fontsize = "xx-large", weight = "bold")
+  ax.set_yticks(range(len(keys)))
+  ax.set_yticklabels([textwrap.shorten(titles[indicator], width = 60, \
+    placeholder = " ...") for indicator in keys])
+  ax.set_ylim([-.5, len(keys) - .5])
+
+  ax.xaxis.grid(True, linestyle = "-.")
+   
+  ax.set_xticks([v/total for v in range(len(args.inColumns) + 1)])
+  ax.set_xticklabels(range(len(args.inColumns) + 1))
+  
+  ax.set_xlabel('Number of FEGA Nodes at certain maturity level', \
+    fontsize = "xx-large", weight = "bold")
+  ax.set_ylabel('Indicators', fontsize = "xx-large", weight = "bold")
 
   plt.tight_layout() 
   plt.show()
