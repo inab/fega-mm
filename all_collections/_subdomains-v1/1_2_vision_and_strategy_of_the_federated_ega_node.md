@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "[1.2] Vision and Strategy of the Federated EGA node"
+title: "[1.2] Vision and Strategy of the FEGA node"
 parent: "1GSS"
 indicators:
- - indicator: '[1.2.1] Roadmap/plan defined for the Federated EGA instance'
+ - indicator: '[1.2.1] Roadmap/plan defined for the FEGA instance'
    levels:
     - level: 1
       desc: 'No strategy/framework is defined.'

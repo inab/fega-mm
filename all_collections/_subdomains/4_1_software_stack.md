@@ -8,7 +8,7 @@ indicators:
     - level: 1
       desc: 'No specific best practices looked at.'
     - level: 2
-      desc: 'Identified best practices at the federated EGA.'
+      desc: 'Identified best practices at the FEGA.'
     - level: 3  
       desc: 'Best practices implemented internally.'
     - level: 4
@@ -29,7 +29,7 @@ indicators:
     - level: 4
       desc: 'Production-level implementation of communication with CEGA microservices and full integration into FEGA node services according to FEGA committees.'
     - level: 5
-      desc: 'Able to update as needed, for example in response to changes in community standards (e.g. GA4GH passports) in the framework of the Federated EGA ecosystem.'
+      desc: 'Able to update as needed, for example in response to changes in community standards (e.g. GA4GH passports) in the framework of the FEGA ecosystem.'
 
  - indicator: '[4.1.3] Microservices/APIs specific for FEGA node operations implemented'
    connected:

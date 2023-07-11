@@ -3,7 +3,7 @@ layout: default
 title: "[3.1] Secure management of data at physical and logical levels"
 parent: "3DMM"
 indicators:
- - indicator: '[3.1.1] Secure installation for the Federated EGA node'
+ - indicator: '[3.1.1] Secure installation for the FEGA node'
    levels:
     - level: 1
       desc: 'None.'
@@ -16,7 +16,7 @@ indicators:
     - level: 5
       desc: 'Security policies follow international best practices for data security and are regularly reviewed based on changes in technological, regulatory and ethical considerations.'
 
- - indicator: '[3.1.2] Data Access mechanisms are available in the Federated EGA node following Data Access Committee approval'
+ - indicator: '[3.1.2] Data Access mechanisms are available in the FEGA node following Data Access Committee approval'
    levels:
     - level: 1
       desc: 'None.'

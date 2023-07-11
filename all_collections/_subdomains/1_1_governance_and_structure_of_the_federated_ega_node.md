@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "[1.1] Governance and structure of the Federated EGA node"
+title: "[1.1] Governance and structure of the FEGA node"
 parent: "1GSS"
 indicators:
- - indicator: '[1.1.1] Dedicated governance bodies and structure defined for the Federated EGA instance'
+ - indicator: '[1.1.1] Dedicated governance bodies and structure defined for the FEGA instance'
    levels:
     - level: 1
       desc: 'Non existent.'
