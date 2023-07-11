@@ -10,7 +10,7 @@ indicators:
     - level: 2
       desc: 'Initial strategy/framework being drafted.'
     - level: 3  
-      desc: 'Strategy/framework approved.'
+      desc: 'Strategy/framework approved by the hosting organisation of the node or consortium of the node.'
     - level: 4
       desc: 'Strategy/framework being implemented with key personnel.'
     - level: 5

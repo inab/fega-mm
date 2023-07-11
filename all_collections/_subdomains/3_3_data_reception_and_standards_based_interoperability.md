@@ -30,7 +30,7 @@ indicators:
     - level: 3  
       desc: 'Initial implementation of the data standards and file types assessment. Manual execution of the associated assessment workflow.'
     - level: 4
-      desc: 'Data standards and file types assessment workflow is fully implemented. Assessment is part of the incoming data process in the FEGA node. Automated report generation.'
+      desc: 'Data standards and file types assessment workflow is fully implemented. Assessment is automated and part of the incoming data process in the FEGA node.'
     - level: 5
       desc: 'Periodic review of the Data standards and file types assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the FEGA ecosystem work in this topic.'
 

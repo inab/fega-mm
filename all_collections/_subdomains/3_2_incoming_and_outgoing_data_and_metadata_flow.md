@@ -27,7 +27,7 @@ indicators:
     - level: 2
       desc: 'First methods are drafted and proposed for the data distribution out of the FEGA node.'
     - level: 3  
-      desc: 'Ad-hoc distribution of data out of the FEGA node to approved users using labour intensive protocols.'
+      desc: 'Ad-hoc distribution of data out of the FEGA Node to approved users using manual/non-scalable mechanisms.'
     - level: 4
       desc: 'Data can flow out of node in a semi-automated or self-service way for approved users using secure protocols. Majority of data distribution scenarios agreed by the FEGA ecosystem are supported by the node.'
     - level: 5
@@ -42,7 +42,7 @@ indicators:
     - level: 3  
       desc: 'Communication interfaces are well defined. Information, operations-oriented & public metadata, e.g. study metadata, accessions, can be exchanged between the FEGA node and Central EGA in a manual way.'
     - level: 4
-      desc: 'Information, operations-oriented & public metadata, e.g. study metadata, accessions, is exchanged between the FEGA node and Central EGA in an automated or scheduled way.'
+      desc: 'Operations-oriented information & public metadata, e.g. study metadata, accessions, is exchanged between the FEGA Node and Central EGA in an automated or scheduled way.'
     - level: 5
       desc: 'Periodic review of exchange information to ensure up-to-date implementations as well as to facilitate the adoption of new standards and newly developed technologies. This periodic review can facilitate the redefinition of exchanged information.'
 ---

@@ -49,7 +49,7 @@ indicators:
     - level: 1
       desc: 'No plan.'
     - level: 2
-      desc: 'Identify potential security breach points from Risk register. Give consideration to other FEGA nodes, CEGA, key contacts, and institutional/organisational policies.'
+      desc: 'Identify potential security breach points to create a Risk register. Take into consideration relations to other FEGA nodes, CEGA, key contacts, and institutional/organisational policies.'
     - level: 3  
       desc: 'First complete draft SOP documented for raising a security alarm. Have contacts for steps of SOP and proposal for audit report. SOP is accessible to all team members.'
     - level: 4
