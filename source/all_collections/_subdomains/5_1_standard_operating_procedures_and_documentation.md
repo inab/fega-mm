@@ -14,7 +14,7 @@ indicators:
     - level: 4
       desc: 'SOPs for additional/new &  "ad hoc" processes defined and added to accessible location'
     - level: 5
-      desc: 'SOPs audited internally & reviewed annually'
+      desc: 'SOPs audited & reviewed annually'
 
  - indicator: '[5.1.2] CEGA-FEGA interaction SOPs defined and documentation available'
    levels:
