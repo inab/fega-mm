@@ -3,7 +3,7 @@ layout: default
 title: "[5.2] Establishment of FEGA Node team"
 parent: "5OS"
 indicators:
- - indicator: '[5.2.1] Training and capacity building of FEGA node team'
+ - indicator: '[5.2.1] Training and Capacity Building'
    connected:
     - ind: '1.1.1'
     - ind: '1.2.1'
