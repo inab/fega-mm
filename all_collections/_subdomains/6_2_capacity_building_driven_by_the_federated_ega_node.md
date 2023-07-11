@@ -10,7 +10,7 @@ indicators:
     - level: 2
       desc: 'Local users needs in terms of training are identified.'
     - level: 3  
-      desc: 'Training materials are available at the FEGA Ecosystem and mapped to the users.'
+      desc: 'Training materials are available at the FEGA Node and mapped to the users.'
     - level: 4
       desc: 'Adapted training materials by the FEGA Node is delivered to local users.'
     - level: 5

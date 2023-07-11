@@ -13,7 +13,7 @@ indicators:
     - level: 2
       desc: 'A plan to engage users from the appropriate community starts in the dialogue on the importance of federated data sharing.'
     - level: 3  
-      desc: 'The different roles of the FEGA Node users are identified in connection with similar efforts in the Ecosystem, and mechanisms to approach them are designed.'
+      desc: 'The different roles of the FEGA node users are identified and mechanisms to communicate with them are designed.'
     - level: 4
       desc: 'Well-developed communication materials and channels are provided, emphasizing the commitment of the FEGA Node in research data sharing.'
     - level: 5

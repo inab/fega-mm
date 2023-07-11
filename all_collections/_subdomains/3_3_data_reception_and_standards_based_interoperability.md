@@ -10,7 +10,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Initial definition of the data content quality aspects to monitor based on existing agreements in the FEGA ecosystem.'
+      desc: 'Initial definition of the data content quality aspects to monitor based on existing consensus in the FEGA ecosystem.'
     - level: 3  
       desc: 'Initial implementation of the data content quality workflow. Manual execution of the associated assessment workflow.'
     - level: 4
@@ -42,7 +42,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Initial definition of the metadata standards that will be supported by the deferated EGA in accordance to its mandate and in alignment with the FEGA ecosystem.'
+      desc: 'Initial definition of standards for the public non-sensitive metadata that will be supported by the FEGA in accordance to its mandate and in alignment with the FEGA ecosystem.'
     - level: 3  
       desc: 'Metadata is ingested with limited formatting and minimum standards. Basic tools used for metadata collection (e.g. spreadsheets) and validation are deployed. Metadata management is partially automated.'
     - level: 4
