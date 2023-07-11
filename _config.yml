@@ -12,3 +12,7 @@ collections:
     output: true
   level-definitions:
     output: true
+  domains-v1:
+    output: true
+  subdomains-v1:
+    output: true
