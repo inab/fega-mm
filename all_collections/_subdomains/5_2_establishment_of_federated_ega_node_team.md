@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[5.2] Establishment of FEGA Node team"
+title: "[5.2] Establishment of FEGA node team"
 parent: "5OS"
 indicators:
  - indicator: '[5.2.1] Training and Capacity Building'

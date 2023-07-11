@@ -129,7 +129,7 @@ if __name__ == "__main__":
   ax.set_xticks([v/total for v in range(len(args.inColumns) + 1)])
   ax.set_xticklabels(range(len(args.inColumns) + 1))
   
-  ax.set_xlabel('Number of FEGA Nodes at certain maturity level', \
+  ax.set_xlabel('Number of FEGA nodes at certain maturity level', \
     fontsize = "xx-large", weight = "bold")
   ax.set_ylabel('Indicators', fontsize = "xx-large", weight = "bold")
 

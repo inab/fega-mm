@@ -15,7 +15,7 @@ indicators:
     - level: 3  
       desc: 'The different roles of the FEGA node users are identified and mechanisms to communicate with them are designed.'
     - level: 4
-      desc: 'Well-developed communication materials and channels are provided, emphasizing the commitment of the FEGA Node in research data sharing.'
+      desc: 'Well-developed communication materials and channels are provided, emphasizing the commitment of the FEGA node in research data sharing.'
     - level: 5
-      desc: 'Periodic review of engagement strategy and materials and the coordination with other FEGA Nodes and relevant projects to develop a common agenda for awareness raising.'
+      desc: 'Periodic review of engagement strategy and materials and the coordination with other FEGA nodes and relevant projects to develop a common agenda for awareness raising.'
 ---
