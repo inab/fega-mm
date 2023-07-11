@@ -76,9 +76,9 @@ indicators:
 ---
 ```
 
-### Pull Request:
+### Pull Request (from the root folder):
 - all_collections/_domains/<domain of interest>
-- all_collections//_subdomains/<subdomain of interest>
+- all_collections/_subdomains/<subdomain of interest>
 - Create branches off of main branch, tag issue in commit statement (to close the issue automatically when PR is merged)
 
 
