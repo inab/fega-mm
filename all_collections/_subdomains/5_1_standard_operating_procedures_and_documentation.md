@@ -36,7 +36,7 @@ indicators:
     - level: 2
       desc: 'Helpdesk staffed and under training in collaboration with FEGA.'
     - level: 3  
-      desc: 'Helpdesk working using FEGA SOPs.'
+      desc: 'Helpdesk working using minimal SOPs.'
     - level: 4
       desc: 'FEGA Helpdesk staff adapting and creating new SOPs in accordance with own Node.'
     - level: 5
