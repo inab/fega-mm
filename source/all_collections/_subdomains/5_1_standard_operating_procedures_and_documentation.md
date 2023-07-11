@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[5.1] Standard Operating Procedures (SOPs) & documentation"
+title: "[5.1] Standard Operating Procedures & documentation"
 parent: "5OS"
 indicators:
  - indicator: '[5.1.1] Internal node operation SOPs defined and documentation available'
