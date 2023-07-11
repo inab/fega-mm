@@ -12,13 +12,13 @@ title: "FEGA Maturity Model"
   </div>
 </div>
 
-<div class="row">
+<!--<div class="row">
   <div class="col-md-12">
      <div class="alert alert-info">
         <button type="button" class="close" data-dismiss="alert">×</button>
         <strong>Heads up!</strong> This site is a draft open to reviewers and, as such, subject to changes. A final version will be available end of 2022
     </div>
   </div>
-</div>
+</div>-->
 
 {% include mm_tabs.html %}
