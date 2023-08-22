@@ -3,7 +3,7 @@ layout: default
 title: "[4.5] Internal Computing Capacity"
 parent: "4TI"
 indicators:
- - indicator: '[4.5.1] Available Computing Capacity'
+ - indicator: '[4.5.1] Available Internal Computing Capacity'
    levels:
     - level: 1
       desc: 'No internal computing capacity.'
