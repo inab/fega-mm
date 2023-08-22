@@ -29,7 +29,7 @@ All content about Domains/Subdomains/Indicators is located at _all_collections_/
 ```md
 ---
 layout: default
-title: "[1] Governance, Strategy & Sustainability"
+title: "[1] Governance, Strategy and Sustainability"
 identifier: "1GSS"
 ---
 ```
@@ -85,5 +85,5 @@ indicators:
 ## Credits
 
 - Theme is made with [jekyll](https://jekyllrb.com/).
-- Look & Feel based on [B1MG project - MLM](https://b1mg-project.github.io/MLM/).
+- Look and Feel based on [B1MG project - MLM](https://b1mg-project.github.io/MLM/).
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[3.2] Incoming and outgoing data & metadata flow"
+title: "[3.2] Incoming and outgoing data and metadata flow"
 parent: "3DMM"
 indicators:
  - indicator: '[3.2.1] Incoming Data flow in the FEGA node is established'
@@ -40,9 +40,9 @@ indicators:
     - level: 2
       desc: 'Information to be exchanged between the FEGA and Central EGA is drafted.'
     - level: 3  
-      desc: 'Communication interfaces are well defined. Information, operations-oriented & public metadata, e.g. study metadata, accessions, can be exchanged between the FEGA node and Central EGA in a manual way.'
+      desc: 'Communication interfaces are well defined. Information, operations-oriented and public metadata, e.g. study metadata, accessions, can be exchanged between the FEGA node and Central EGA in a manual way.'
     - level: 4
-      desc: 'Operations-oriented information & public metadata, e.g. study metadata, accessions, is exchanged between the FEGA Node and Central EGA in an automated or scheduled way.'
+      desc: 'Operations-oriented information and public metadata, e.g. study metadata, accessions, is exchanged between the FEGA Node and Central EGA in an automated or scheduled way.'
     - level: 5
       desc: 'Periodic review of exchange information to ensure up-to-date implementations as well as to facilitate the adoption of new standards and newly developed technologies. This periodic review can facilitate the redefinition of exchanged information.'
 ---

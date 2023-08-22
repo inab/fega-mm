@@ -38,7 +38,7 @@ indicators:
     - level: 3  
       desc: 'Risks identified, documented and assigned to appropriate personnel for review'
     - level: 4
-      desc: 'Risks register formally defined (Risks identified, analysised, prioritised & treated/mitigated)'
+      desc: 'Risks register formally defined (Risks identified, analysised, prioritised and treated/mitigated)'
     - level: 5
       desc: 'Risk register reviewed and updated quarterly'
 

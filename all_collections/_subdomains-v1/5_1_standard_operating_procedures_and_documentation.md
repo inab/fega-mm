@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[5.1] Standard Operating Procedures & documentation"
+title: "[5.1] Standard Operating Procedures and documentation"
 parent: "5OS"
 indicators:
  - indicator: '[5.1.1] Internal node operation SOPs defined and documentation available'
@@ -10,11 +10,11 @@ indicators:
     - level: 2
       desc: 'Processes defined and documented in draft format.'
     - level: 3  
-      desc: 'Template for SOPs created. SOPs for key operations generated & approved by key personnel and stored in accessible location for all appropriate staff.'
+      desc: 'Template for SOPs created. SOPs for key operations generated and approved by key personnel and stored in accessible location for all appropriate staff.'
     - level: 4
-      desc: 'SOPs for additional/new &  "ad hoc" processes defined and added to accessible location.'
+      desc: 'SOPs for additional/new and  "ad hoc" processes defined and added to accessible location.'
     - level: 5
-      desc: 'SOPs audited & reviewed annually.'
+      desc: 'SOPs audited and reviewed annually.'
 
  - indicator: '[5.1.2] CEGA-FEGA interaction SOPs defined and documentation available'
    levels:
@@ -23,11 +23,11 @@ indicators:
     - level: 2
       desc: 'Cross processes identified and documented in draft format.'
     - level: 3  
-      desc: 'Template for SOPs created. SOPs for key operations generated & approved by key personnel and stored in accessible location for all appropriate staff.'
+      desc: 'Template for SOPs created. SOPs for key operations generated and approved by key personnel and stored in accessible location for all appropriate staff.'
     - level: 4
-      desc: 'SOPs for additional/new &  "ad hoc" processes defined and added to accessible location.'
+      desc: 'SOPs for additional/new and  "ad hoc" processes defined and added to accessible location.'
     - level: 5
-      desc: 'SOPs audited & reviewed annually.'
+      desc: 'SOPs audited and reviewed annually.'
 
  - indicator: '[5.1.3] Helpdesk and SOPs established'
    levels:

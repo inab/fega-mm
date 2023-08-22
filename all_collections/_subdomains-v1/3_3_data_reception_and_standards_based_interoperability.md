@@ -34,7 +34,7 @@ indicators:
     - level: 5
       desc: 'Periodic review of the Data standards and file types assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the FEGA ecosystem work in this topic.'
 
- - indicator: '[3.3.3] Metadata standards & harmonisation implemented'
+ - indicator: '[3.3.3] Metadata standards and harmonisation implemented'
    connected:
     - ind: '1.2.1'
     - ind: '3.2.1'
@@ -48,5 +48,5 @@ indicators:
     - level: 4
       desc: 'Metadata management is automated and becomes more holistic including the harmonized metadata standards, e.g. relevant ontologies. Tooling and support is available for submitters and data requesters,  including curation services, if needed.'
     - level: 5
-      desc: 'Periodic review of metadata standards & harmonisation efforts to maintain them up-to-date and consider extension and adoption when new uses are identified/mandated.'
+      desc: 'Periodic review of metadata standards and harmonisation efforts to maintain them up-to-date and consider extension and adoption when new uses are identified/mandated.'
 ---
