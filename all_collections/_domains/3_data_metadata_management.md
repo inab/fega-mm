@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[3] Data and metadata management"
+title: "[3] Data and Metadata Management"
 identifier: "3DMM"
 ---
 
