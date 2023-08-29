@@ -13,7 +13,7 @@ indicators:
     - level: 2
       desc: 'The different needs of the FEGA node teams are assessed, gaps are identified and training options are under development.'
     - level: 3  
-      desc: 'The training programs for employees are deployed, but the essential personnel gaps are still remaining.'
+      desc: 'Training programs are being deployed but do not cover yet all the identified gaps.'
     - level: 4
       desc: 'The training programs for employees are sufficient for filling gaps.'
     - level: 5
