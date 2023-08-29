@@ -9,9 +9,9 @@ indicators:
     - ind: '1.3.2'
    levels:
     - level: 1
-      desc: 'No storage capacity.'
+      desc: 'No or insufficient storage capacity.'
     - level: 2
-      desc: 'Storage capacity needs are not planned but it is addressed ad hoc if the node has no more storage to provide.'
+      desc: 'Storage system available, capacity needs are not planned but needs are addressed ad hoc if the node has no more storage to provide.'
     - level: 3  
       desc: 'A plan to maintain or increase storage capacity in case of being necessary is drafted considering the policies by the hosting institution.'
     - level: 4
