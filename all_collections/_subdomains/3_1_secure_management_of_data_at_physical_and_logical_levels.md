@@ -16,7 +16,7 @@ indicators:
     - level: 5
       desc: 'Security policies follow international best practices for data security and are regularly reviewed based on changes in technological, regulatory and ethical considerations.'
 
- - indicator: '[3.1.2] Data Access mechanisms are available in the FEGA node following Data Access Committee approval'
+ - indicator: '[3.1.2] Data Access mechanisms are available in the FEGA node following Data Access Committee (DAC) approval'
    levels:
     - level: 1
       desc: 'None.'
@@ -49,9 +49,9 @@ indicators:
     - level: 1
       desc: 'No plan.'
     - level: 2
-      desc: 'Identify potential security breach points to create a Risk register. Take into consideration relations to other FEGA nodes, CEGA, key contacts, and institutional/organisational policies.'
+      desc: 'Identify potential security breach points to create a Risk register. Take into consideration relations to other FEGA nodes, Central EGA, key contacts, and institutional/organisational policies.'
     - level: 3  
-      desc: 'First complete draft SOP documented for raising a security alarm. Have contacts for steps of SOP and proposal for audit report. SOP is accessible to all team members.'
+      desc: 'First complete draft Standard Operating Procedure (SOP) documented for raising a security alarm. Have contacts for steps of SOP and proposal for audit report. SOP is accessible to all team members.'
     - level: 4
       desc: 'Production SOP in use, approved by relevant legal and/or security personnel.'
     - level: 5
