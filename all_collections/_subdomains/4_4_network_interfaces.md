@@ -26,7 +26,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Incidents are resolved but not classified not managed by the FEGA node. Drafted security network strategies to avoid common vulnerabilities.'
+      desc: 'Incidents are resolved but not classified nor managed by the FEGA Node. Drafted security network strategies to avoid common vulnerabilities.'
     - level: 3  
       desc: 'Node has implementation of mitigation strategies for vulnerabilities. An incident reporting system is drafted and partially implemented allowing to gain experience on those incidents.'
     - level: 4
