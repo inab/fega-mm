@@ -44,11 +44,12 @@
                 </div>
                 <div class="col-md-2">
                   {% for con in indicator.connected %}
-                  <div class="row border-top">
+                  <!--<div class="row border-top">
                     <div class="col-md-12">
                         <div class="d-table-cell"><strong>{{con.ind}}</strong></div>
                     </div>
-                  </div>
+                  </div>-->
+                  <strong>{{con.ind}}</strong>{% unless forloop.last %}, {% endunless %}
                   {% endfor %}
                 </div>
                 <div class="col-md-6">
