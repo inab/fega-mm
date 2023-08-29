@@ -8,7 +8,7 @@ indicators:
     - ind: '1.4.1'
    levels:
     - level: 1
-      desc: 'No network capacity.'
+      desc: 'No knowledge of network needs, restrictions and capacity.'
     - level: 2
       desc: 'FEGA node network needs are covered by the hosting institution in an ad hoc basis.'
     - level: 3  
