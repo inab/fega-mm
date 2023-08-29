@@ -3,7 +3,7 @@ layout: default
 title: "[4.2] Technical Benchmarking"
 parent: "4TI"
 indicators:
- - indicator: '[4.2.1] Compliance testing'
+ - indicator: '[4.2.1] Testing of compliance with centrally provided services'
    connected:
     - ind: '4.1.2'
     - ind: '4.2.2'
@@ -12,7 +12,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'The FEGA node has started drafting the compliance tests considering the tests defined in the context of the FEGA ecosystem.'
+      desc: 'The FEGA node has started drafting the tests to be performed between own and central services in the FEGA ecosystem.'
     - level: 3  
       desc: 'Implementation and successful performance of the core compliance tests as defined in the FEGA ecosystem.'
     - level: 4
@@ -27,7 +27,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'The FEGA node starts drafting stress tests based on existing knowledge at the FEGA ecosystem.'
+      desc: 'The FEGA node starts drafting stress tests based on existing knowledge in the FEGA community.'
     - level: 3  
       desc: 'Implementation and successful performance of the core stress tests as defined in the FEGA ecosystem.'
     - level: 4
