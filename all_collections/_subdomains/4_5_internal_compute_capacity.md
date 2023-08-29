@@ -6,7 +6,7 @@ indicators:
  - indicator: '[4.5.1] Available Internal Computing Capacity'
    levels:
     - level: 1
-      desc: 'No internal computing capacity.'
+      desc: 'No or insufficient internal computing capacity.'
     - level: 2
       desc: 'Internal computing capacity needs are not planned, but sufficient computing resources can be obtained as the node needs.'
     - level: 3  
