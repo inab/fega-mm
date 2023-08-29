@@ -26,9 +26,9 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Incidents are resolved but not classified not managed by the FEGA node. Drafted security network strategies to avoid common vulnerabilities (CAM table exhaustion, ARP spoofing, etc).'
+      desc: 'Incidents are resolved but not classified not managed by the FEGA node. Drafted security network strategies to avoid common vulnerabilities.'
     - level: 3  
-      desc: 'Node has implementation of mitigation strategies for vulnerabilities (port security on switch, ARP certification, IP source guard, etc). An incident reporting system is drafted and partially implemented allowing to gain experience on those incidents.'
+      desc: 'Node has implementation of mitigation strategies for vulnerabilities. An incident reporting system is drafted and partially implemented allowing to gain experience on those incidents.'
     - level: 4
       desc: 'The FEGA node has a security architecture implementing policies, standards, and risk management decisions in alignment with the hosting institution and considering the existing experiences at the FEGA ecosystem.'
     - level: 5
