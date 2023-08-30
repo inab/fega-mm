@@ -17,7 +17,7 @@ indicators:
     - level: 4
       desc: 'The FEGA node has a complete and implemented plan to maintain or increase its capacity when required.'
     - level: 5
-      desc: "Periodic revision of the Storage Capacity Planning according to utilization KPI's of the FEGA node updating it whenever necessary."
+      desc: "Periodic revision of the Storage Capacity Planning according to utilisation KPI's of the FEGA node updating it whenever necessary."
 
  - indicator: '[4.3.2] Storage Robustness'
    levels:
