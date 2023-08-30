@@ -15,7 +15,7 @@ indicators:
     - level: 3  
       desc: 'FEGA node is acknowledged including the negotiation to sign the FEGA Collaboration Agreement.'
     - level: 4
-      desc: 'FEGA Collaboration Agreement is signed and the Node become a recognized part of the FEGA.'
+      desc: 'FEGA Collaboration Agreement is signed and the Node become a recognised part of the FEGA.'
     - level: 5
       desc: 'Periodic review of the FEGA Collaboration Agreement being amended whenever necessary.'
 ---
