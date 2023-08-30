@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "[2.2] FEGA node Collaboration agreement"
+title: "[2.2] FEGA Collaboration Agreement"
 parent: "2L"
 indicators:
- - indicator: '[2.2.1] FEGA node Collaboration agreement established'
+ - indicator: '[2.2.1] FEGA Collaboration Agreement established'
    connected:
     - ind: '1.1.1'
     - ind: '1.2.1'
@@ -11,11 +11,11 @@ indicators:
     - level: 1
       desc: 'Informal interest expressed.'
     - level: 2
-      desc: 'Express the intention of becoming a new FEGA node by requesting to start the Collaboration agreement signing process.'
+      desc: 'Express the intention of becoming a new FEGA node by requesting to start the FEGA Collaboration Agreement signing process.'
     - level: 3  
-      desc: 'FEGA node is acknowledged including the negotiation to sign up the Collaboration agreement.'
+      desc: 'FEGA node is acknowledged including the negotiation to sign the FEGA Collaboration Agreement.'
     - level: 4
-      desc: 'FEGA node collaboration agreement is signed and the Node become a recognized part of the FEGA.'
+      desc: 'FEGA Collaboration Agreement is signed and the Node become a recognized part of the FEGA.'
     - level: 5
-      desc: 'Periodic review of the Collaboration agreement being amended whenever necessary.'
+      desc: 'Periodic review of the FEGA Collaboration Agreement being amended whenever necessary.'
 ---
