@@ -14,5 +14,5 @@ indicators:
     - level: 4
       desc: 'Adapted training materials by the FEGA node is delivered to local users.'
     - level: 5
-      desc: 'Periodic review of available trainings at the FEGA node and its contributions to the FEGA Ecosystem.'
+      desc: 'Periodic review of available trainings at the FEGA node and its contributions to the FEGA ecosystem.'
 ---
