@@ -15,7 +15,7 @@ indicators:
     - level: 3  
       desc: 'Leverage the existing generic communication package by the FEGA ecosystem to establish the digital entity of the FEGA node.'
     - level: 4
-      desc: 'Customised communication package to various FEGA node stakeholders: language-specific, audience-specific (end-users, funders).'
+      desc: 'Customised communication package to various FEGA node stakeholders: language-specific, audience-specific.'
     - level: 5
       desc: 'Periodic review of communication package updating it whenever necessary to maximise impact. Contribute towards the generic communication package of the FEGA ecosystem.'
 ---
