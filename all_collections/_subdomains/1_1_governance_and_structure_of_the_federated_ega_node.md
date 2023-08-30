@@ -14,5 +14,5 @@ indicators:
     - level: 4
       desc: 'Governance body is fully operating with key personnel and is monitored based on work plan.'
     - level: 5
-      desc: 'Governance body is institutionalized, protected from organizational changes, open to novel developments and supportive of international cooperation.'
+      desc: 'Governance body is institutionalised, protected from organisational changes, open to novel developments and supportive of international cooperation.'
 ---
