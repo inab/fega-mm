@@ -25,7 +25,7 @@ indicators:
     - level: 3  
       desc: 'Partial automation of the data flow approval process.'
     - level: 4
-      desc: 'Datasets are tagged with appropriate usage conditions using, for instance, GA4GH DUO. This would partially guide DAC approvals, accelerating the data access process.'
+      desc: 'Datasets are tagged with appropriate usage conditions. This would partially guide DAC approvals, accelerating the data access process.'
     - level: 5
       desc: 'Application for access is semi-automated and follows international standards. Process is periodically reviewed to ensure time efficient access.'
 
