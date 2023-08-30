@@ -16,7 +16,7 @@ indicators:
     - level: 4
       desc: 'The FEGA node has a complete and implemented network capacity plan, which can be increased whenever required.'
     - level: 5
-      desc: "Periodic revision of the Network Capacity Planning according to network congestion KPI's of the FEGA node updating it whenever necessary."
+      desc: 'Periodic revision of the Network Capacity Planning according to network congestion KPIs of the FEGA node updating it whenever necessary.'
 
  - indicator: '[4.4.2] Network Reliability / Security'
    connected:
@@ -26,7 +26,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Incidents are resolved but not classified not managed by the FEGA node. Drafted security network strategies to avoid common vulnerabilities.'
+      desc: 'Incidents are resolved but not classified nor managed by the FEGA node. Drafted security network strategies to avoid common vulnerabilities.'
     - level: 3  
       desc: 'Node has implementation of mitigation strategies for vulnerabilities. An incident reporting system is drafted and partially implemented allowing to gain experience on those incidents.'
     - level: 4
