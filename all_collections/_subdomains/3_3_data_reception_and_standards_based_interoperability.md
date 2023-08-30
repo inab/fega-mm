@@ -46,7 +46,7 @@ indicators:
     - level: 3  
       desc: 'Metadata is ingested with limited formatting and minimum standards. Basic tools used for metadata collection (e.g. spreadsheets) and validation are deployed. Metadata management is partially automated.'
     - level: 4
-      desc: 'Metadata management is automated and becomes more holistic including the harmonized metadata standards, e.g. relevant ontologies. Tooling and support is available for submitters and data requesters,  including curation services, if needed.'
+      desc: 'Metadata management is automated and becomes more holistic including the harmonised metadata standards, e.g. relevant ontologies. Tooling and support is available for submitters and data requesters,  including curation services, if needed.'
     - level: 5
       desc: 'Periodic review of metadata standards and harmonisation efforts to maintain them up-to-date and consider extension and adoption when new uses are identified/mandated.'
 ---
