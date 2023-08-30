@@ -36,7 +36,7 @@ indicators:
     - level: 1
       desc: 'No risk register.'
     - level: 2
-      desc: 'Risk register planning in preparation, relevant people identified as responsible for RR at node.'
+      desc: 'Risk register planning in preparation, relevant people identified as responsible for Risk register at node.'
     - level: 3  
       desc: 'Risks identified, documented and assigned to appropriate personnel for review.'
     - level: 4
