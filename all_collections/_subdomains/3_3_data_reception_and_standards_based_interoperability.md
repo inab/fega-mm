@@ -32,7 +32,7 @@ indicators:
     - level: 4
       desc: 'Data standards and file types assessment workflow is fully implemented. Assessment is automated and part of the incoming data process in the FEGA node.'
     - level: 5
-      desc: 'Periodic review of the Data standards and file types assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the FEGA ecosystem work in this topic.'
+      desc: 'Periodic review of the data standards and file types assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the FEGA ecosystem work in this topic.'
 
  - indicator: '[3.3.3] Metadata standards and harmonisation implemented'
    connected:
