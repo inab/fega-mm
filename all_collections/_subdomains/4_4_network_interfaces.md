@@ -8,7 +8,7 @@ indicators:
     - ind: '1.4.1'
    levels:
     - level: 1
-      desc: 'No network capacity.'
+      desc: 'No knowledge of network needs, restrictions and capacity.'
     - level: 2
       desc: 'FEGA node network needs are covered by the hosting institution in an ad hoc basis.'
     - level: 3  
@@ -26,7 +26,7 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Incidents are resolved but not classified nor managed by the FEGA node. Drafted security network strategies to avoid common vulnerabilities.'
+      desc: 'Incidents are resolved but not classified nor managed by the FEGA Node. Drafted security network strategies to avoid common vulnerabilities.'
     - level: 3  
       desc: 'Node has implementation of mitigation strategies for vulnerabilities. An incident reporting system is drafted and partially implemented allowing to gain experience on those incidents.'
     - level: 4

@@ -34,7 +34,7 @@ indicators:
     - level: 1
       desc: 'No helpdesk.'
     - level: 2
-      desc: 'Helpdesk staffed and under training in collaboration with FEGA.'
+      desc: 'Helpdesk staffed and working ad-hoc while also undergoing training.'
     - level: 3  
       desc: 'Helpdesk working using minimal SOPs.'
     - level: 4
