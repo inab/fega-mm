@@ -12,7 +12,7 @@ indicators:
     - level: 3  
       desc: 'Template for SOPs created. SOPs for key operations generated and approved by key personnel and stored in accessible location for all appropriate staff.'
     - level: 4
-      desc: 'SOPs for additional/new and  "ad hoc" processes defined and added to accessible location.'
+      desc: 'SOPs for additional/new and ad hoc processes defined and added to accessible location.'
     - level: 5
       desc: 'SOPs audited internally and reviewed annually.'
 
@@ -25,7 +25,7 @@ indicators:
     - level: 3  
       desc: 'Template for SOPs created. SOPs for key operations generated and approved by key personnel and stored in accessible location for all appropriate staff.'
     - level: 4
-      desc: 'SOPs for additional/new and  "ad hoc" processes defined and added to accessible location.'
+      desc: 'SOPs for additional/new and ad hoc processes defined and added to accessible location.'
     - level: 5
       desc: 'SOPs audited and reviewed annually.'
 

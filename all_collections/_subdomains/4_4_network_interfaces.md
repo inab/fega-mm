@@ -16,7 +16,7 @@ indicators:
     - level: 4
       desc: 'The FEGA node has a complete and implemented network capacity plan, which can be increased whenever required.'
     - level: 5
-      desc: "Periodic revision of the Network Capacity Planning according to network congestion KPI's of the FEGA node updating it whenever necessary."
+      desc: 'Periodic revision of the Network Capacity Planning according to network congestion KPIs of the FEGA node updating it whenever necessary.'
 
  - indicator: '[4.4.2] Network Reliability / Security'
    connected:

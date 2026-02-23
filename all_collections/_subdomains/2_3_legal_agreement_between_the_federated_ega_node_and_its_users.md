@@ -12,7 +12,7 @@ indicators:
     - level: 2
       desc: 'Initial DPA template is drafted, taking into account local regulations, for data submission cases that require a DPA.'
     - level: 3  
-      desc: 'DPA template incorporates elements from the FEGA Ecosystem to ensure consistency.'
+      desc: 'DPA template incorporates elements from the FEGA ecosystem to ensure consistency.'
     - level: 4
       desc: 'DPA template is approved by the institution hosting the FEGA node and can be distributed to submitters.'
     - level: 5

@@ -27,7 +27,7 @@ indicators:
     - level: 2
       desc: 'First methods are drafted and proposed for the data distribution out of the FEGA node.'
     - level: 3  
-      desc: 'Ad-hoc distribution of data out of the FEGA Node to approved users using manual/non-scalable mechanisms.'
+      desc: 'Ad hoc distribution of data out of the FEGA Node to approved users using manual/non-scalable mechanisms.'
     - level: 4
       desc: 'Data can flow out of node in a semi-automated or self-service way for approved users using secure protocols. Majority of data distribution scenarios agreed by the FEGA ecosystem are supported by the node.'
     - level: 5
