@@ -14,7 +14,7 @@ indicators:
     - level: 2
       desc: 'The FEGA node has started drafting the compliance tests considering the tests defined in the context of the FEGA ecosystem.'
     - level: 3  
-      desc: 'Implementation and successful performance of the core compliance tests as defined in the FEGA ecosystem.'
+      desc: 'Implementation and successful performance of the core compliance tests on service deployments as defined in the Federated EGA ecosystem.'
     - level: 4
       desc: 'Implementation of the full battery of compliance tests and successful performance of tests to a production-level standard as defined in the FEGA ecosystem.'
     - level: 5
