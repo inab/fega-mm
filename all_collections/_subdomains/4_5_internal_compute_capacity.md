@@ -12,7 +12,7 @@ indicators:
     - level: 3  
       desc: 'A plan to obtain and maintain internal computing capacity required for node services is drafted, considering hosting institution policies and node services required in the FEGA ecosystem.'
     - level: 4
-      desc: 'The FEGA node has a complete and implemented plan to maintain sufficient internal computing capacity for required services and increase capacity when needed.'
+      desc: 'The FEGA Node has a complete and implemented plan to maintain sufficient internal computing capacity for required services and increase capacity when needed.'
     - level: 5
-      desc: 'Periodic revision of the Internal Computing Capacity Planning according to utilisation KPIs of the FEGA node, updating it whenever necessary.'
+      desc: 'Periodic revision of the Internal Computing Capacity Planning according to utilisation KPIs of the FEGA Node, updating it whenever necessary.'
 ---
