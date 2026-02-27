@@ -27,11 +27,11 @@ indicators:
     - level: 3  
       desc: 'Implementation and successful performance of minimally required communication with CEGA microservices.'
     - level: 4
-      desc: 'Mature production quality implementation of communication with CEGA microservices and full integration into FEGA node services according to FEGA committees.'
+      desc: 'Mature production quality implementation of communication with CEGA microservices and full integration into FEGA Node services according to FEGA committees.'
     - level: 5
       desc: 'Able to update as needed, for example in response to changes in community standards (e.g. GA4GH passports) in the framework of the FEGA ecosystem.'
 
- - indicator: '[4.1.3] Microservices/APIs specific for FEGA node operations implemented'
+ - indicator: '[4.1.3] Microservices/APIs specific for FEGA Node operations implemented'
    connected:
     - ind: '3.2.2'
    levels:
@@ -40,9 +40,9 @@ indicators:
     - level: 2
       desc: 'Node-specific requirements considered, API specifications drafted, implementation in progress.'
     - level: 3  
-      desc: 'Minimal set of APIs/microservices in production to support core FEGA node services. Additional APIs/microservices being developed/tested.'
+      desc: 'Minimal set of APIs/microservices in production to support core FEGA Node services. Additional APIs/microservices being developed/tested.'
     - level: 4
-      desc: 'All FEGA node microservices/APIs in production with documented specifications. Services have generally high uptime.'
+      desc: 'All FEGA Node microservices/APIs in production with documented specifications. Services have generally high uptime.'
     - level: 5
       desc: 'Periodic assessment of APIs/microservices against user needs and feedback. Proposals made for new APIs/microservices or new features for existing APIs/microservices.'
 ---

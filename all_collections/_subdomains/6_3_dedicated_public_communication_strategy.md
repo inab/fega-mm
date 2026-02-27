@@ -11,11 +11,11 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Initial and informal communications for the FEGA node are happening.'
+      desc: 'Initial and informal communications for the FEGA Node are happening.'
     - level: 3  
-      desc: 'Leverage the existing generic communication package by the FEGA ecosystem to establish the digital entity of the FEGA node.'
+      desc: 'Leverage the existing generic communication package by the FEGA ecosystem to establish the digital entity of the FEGA Node.'
     - level: 4
-      desc: 'Customised communication package to various FEGA node stakeholders: language-specific, audience-specific.'
+      desc: 'Customised communication package to various FEGA Node stakeholders: language-specific, audience-specific.'
     - level: 5
       desc: 'Periodic review of communication package updating it whenever necessary to maximise impact. Contribute towards the generic communication package of the FEGA ecosystem.'
 ---

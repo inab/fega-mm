@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[1.2] Vision and Strategy of the FEGA node"
+title: "[1.2] Vision and Strategy of the FEGA Node"
 parent: "1GSS"
 indicators:
  - indicator: '[1.2.1] Roadmap/plan defined for the FEGA instance'
