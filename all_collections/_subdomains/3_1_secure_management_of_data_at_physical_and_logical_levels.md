@@ -3,7 +3,7 @@ layout: default
 title: "[3.1] Secure management of data at physical and logical levels"
 parent: "3DMM"
 indicators:
- - indicator: '[3.1.1] Secure installation for the FEGA node'
+ - indicator: '[3.1.1] Secure installation for the FEGA Node'
    levels:
     - level: 1
       desc: 'None.'
@@ -16,7 +16,7 @@ indicators:
     - level: 5
       desc: 'Security policies follow international best practices for data security and are regularly reviewed based on changes in technological, regulatory and ethical considerations.'
 
- - indicator: '[3.1.2] Data Access mechanisms are available in the FEGA node following Data Access Committee (DAC) approval'
+ - indicator: '[3.1.2] Data Access mechanisms are available in the FEGA Node following Data Access Committee (DAC) approval'
    levels:
     - level: 1
       desc: 'None.'
@@ -49,7 +49,7 @@ indicators:
     - level: 1
       desc: 'No plan.'
     - level: 2
-      desc: 'Identify potential security breach points to create a Risk register. Take into consideration relations to other FEGA nodes, Central EGA, key contacts, and institutional/organisational policies.'
+      desc: 'Identify potential security breach points to create a Risk register. Take into consideration relations to other FEGA Nodes, Central EGA, key contacts, and institutional/organisational policies.'
     - level: 3  
       desc: 'First complete draft Standard Operating Procedure (SOP) documented for raising a security alarm. Have contacts for steps of SOP and proposal for audit report. SOP is accessible to all team members.'
     - level: 4

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[1.3] Sustainability model of the FEGA node"
+title: "[1.3] Sustainability model of the FEGA Node"
 parent: "1GSS"
 indicators:
  - indicator: '[1.3.1] Immediate resources (short-to-mid term funding)'

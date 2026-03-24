@@ -14,7 +14,7 @@ indicators:
     - level: 3  
       desc: 'Initial implementation of the data content quality workflow. Manual execution of the associated assessment workflow.'
     - level: 4
-      desc: 'Data Content Quality assessment workflow is fully implemented. Automated generation of reports on the data content quality available at the FEGA node.'
+      desc: 'Data Content Quality assessment workflow is fully implemented. Automated generation of reports on the data content quality available at the FEGA Node.'
     - level: 5
       desc: 'Periodic review of the Data Content Quality assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the FEGA ecosystem work in this topic.'
 
@@ -26,11 +26,11 @@ indicators:
     - level: 1
       desc: 'None.'
     - level: 2
-      desc: 'Initial definition of the data standards and file types that will be supported by the FEGA node in accordance to its mandate.'
+      desc: 'Initial definition of the data standards and file types that will be supported by the FEGA Node in accordance to its mandate.'
     - level: 3  
       desc: 'Initial implementation of the data standards and file types assessment. Manual execution of the associated assessment workflow.'
     - level: 4
-      desc: 'Data standards and file types assessment workflow is fully implemented. Assessment is automated and part of the incoming data process in the FEGA node.'
+      desc: 'Data standards and file types assessment workflow is fully implemented. Assessment is automated and part of the incoming data process in the FEGA Node.'
     - level: 5
       desc: 'Periodic review of the data standards and file types assessment criteria and workflow. Criteria and workflows can be refined to maintain general agreement with the FEGA ecosystem work in this topic.'
 

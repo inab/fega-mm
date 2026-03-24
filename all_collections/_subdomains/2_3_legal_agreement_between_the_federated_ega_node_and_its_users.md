@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[2.3] Legal agreement between the FEGA node and its submitters"
+title: "[2.3] Legal agreement between the FEGA Node and its submitters"
 parent: "2L"
 indicators:
  - indicator: '[2.3.1] Data Processing Agreement (DPA) is available to submitters'
@@ -14,7 +14,7 @@ indicators:
     - level: 3  
       desc: 'DPA template incorporates elements from the FEGA ecosystem to ensure consistency.'
     - level: 4
-      desc: 'DPA template is approved by the institution hosting the FEGA node and can be distributed to submitters.'
+      desc: 'DPA template is approved by the institution hosting the FEGA Node and can be distributed to submitters.'
     - level: 5
-      desc: 'Periodically review and update DPA template to reflect changes in existing regulations and/or new working procedures in the FEGA node.'
+      desc: 'Periodically review and update DPA template to reflect changes in existing regulations and/or new working procedures in the FEGA Node.'
 ---

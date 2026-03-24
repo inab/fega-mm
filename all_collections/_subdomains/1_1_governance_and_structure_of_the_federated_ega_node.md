@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[1.1] Governance and structure of the FEGA node"
+title: "[1.1] Governance and structure of the FEGA Node"
 parent: "1GSS"
 indicators:
  - indicator: '[1.1.1] Dedicated governance bodies and structure defined for the FEGA instance'

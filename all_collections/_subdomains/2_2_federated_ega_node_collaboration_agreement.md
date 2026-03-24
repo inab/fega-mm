@@ -11,9 +11,9 @@ indicators:
     - level: 1
       desc: 'Informal interest expressed.'
     - level: 2
-      desc: 'Express the intention of becoming a new FEGA node by requesting to start the FEGA Collaboration Agreement signing process.'
+      desc: 'Express the intention of becoming a new FEGA Node by requesting to start the FEGA Collaboration Agreement signing process.'
     - level: 3  
-      desc: 'FEGA node is acknowledged including the negotiation to sign the FEGA Collaboration Agreement.'
+      desc: 'FEGA Node is acknowledged including the negotiation to sign the FEGA Collaboration Agreement.'
     - level: 4
       desc: 'FEGA Collaboration Agreement is signed and the Node become a recognised part of the FEGA.'
     - level: 5
