@@ -3,7 +3,7 @@ layout: default
 title: "FEGA Maturity Model"
 ---
 
-<div class="row">
+<div class="row mb-2">
   <div class="col-md-12">
      <p style="text-align:justify">The Federated EGA (FEGA) Maturity Model is a mechanism to drive engagement of FEGA Nodes being part of the EGA federation. The main purpose of the FEGA Maturity Model is to provide a tool to self-assess readiness and operations for running a FEGA Node in a sustainable and standardized manner. It should aid in making rational decisions on goal setting, planning and required investments to form the FEGA Node’s roadmap.</p>
   </div>
