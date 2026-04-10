@@ -2,6 +2,7 @@
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-fega-mm-tab" data-toggle="tab" href="#nav-fega-mm" role="tab" aria-controls="nav-fega-mm" aria-selected="true">FEGA Maturity Model</a>
     <a class="nav-item nav-link" id="nav-level-definitions-tab" data-toggle="tab" href="#nav-level-definitions" role="tab" aria-controls="nav-level-definitions" aria-selected="false">Level definitions</a>
+    <a class="nav-item nav-link" id="nav-narrative-document-tab" data-toggle="tab" href="#nav-narrative-document" role="tab" aria-controls="nav-narrative-document" aria-selected="false">Narrative document</a>
   </div>
 </nav>
 
@@ -12,5 +13,9 @@
 
   <div class="tab-pane fade" id="nav-level-definitions" role="tabpanel" aria-labelledby="nav-level-definitions-tab">
     {% include level_definitions.html %}
+  </div>
+
+  <div class="tab-pane fade" id="nav-narrative-document" role="tabpanel" aria-labelledby="nav-narrative-document-tab">
+    {% include narrative_document.html %}
   </div>
 </div>
