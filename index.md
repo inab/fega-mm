@@ -4,11 +4,8 @@ title: "FEGA Maturity Model"
 ---
 
 <div class="row">
-  <div class="col-md-3">
-     <h1>The vision</h1>
-  </div>
-  <div class="col-md-9">
-     <p>The maturity model is envisioned as a mechanism to drive engagement and disengagement of nodes being part of the EGA federation. This model is divided into different domains and subdomains with a 5-levels scale. The first two levels are deemed to drive the initial interactions of an organization willing to join the Federated EGA ecosystem. Levels 3 and 4 aim to establish clear guidelines to reach a fully operational Federated EGA Node. Level 5 is designed to facilitate periodic review of the different indicators as well as to ensure the adoption of the most up-to-date technical and legal specifications.</p>
+  <div class="col-md-12">
+     <p style="text-align:justify">The Federated EGA (FEGA) Maturity Model is a mechanism to drive engagement of FEGA Nodes being part of the EGA federation. The main purpose of the FEGA Maturity Model is to provide a tool to self-assess readiness and operations for running a FEGA Node in a sustainable and standardized manner. It should aid in making rational decisions on goal setting, planning and required investments to form the FEGA Node’s roadmap.</p>
   </div>
 </div>
 
